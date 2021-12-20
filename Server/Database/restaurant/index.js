@@ -9,7 +9,7 @@ const RestaurantSchema = new mongoose.Schema(
     cuisine: [String],
     restaurantTimings: String,
     contactNumber: { type: Number, required: true },
-    website: Number,
+    website: String,
     poupularDishes: [String],
     averageCost: Number,
     amenties: [String],
